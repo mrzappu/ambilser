@@ -6,7 +6,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Discord infinity music is running!');
+  res.send('Discord AMBILI GAMING is running!');
 });
 
 app.listen(port, '0.0.0.0', () => {
@@ -138,7 +138,7 @@ client.once('ready', async () => {
   console.log(`Logged in as ${client.user.tag}`);
   manager.init(client.user.id);
 
-  client.user.setActivity('INFINITY MUSIC', { type: ActivityType.Listening });
+  client.user.setActivity('AMBILI GAMING', { type: ActivityType.Listening });
 
   try {
     console.log('Refreshing slash commands...');
